@@ -1,6 +1,10 @@
 # NotificationTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+This project uses two different types of notifications
+
+- HostListener with document:visibilitychange - to determine if the user is inside the tab or in another tab.
+- SWPush from Angular Service Worker - to get a message from a server (in my case the notification server Node.js (https://github.com/KingGilbert89/notification-server-test)) and pass it to the desktop.
 
 ## Development server
 
